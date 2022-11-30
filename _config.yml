@@ -31,7 +31,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "xanderlaw.live" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Mc'Owl
 github_username:  mcowl-web
-favicon: mcowl-logo1.png
+favicon: /assets/images/logofin.png
 
 sitemap: true
 header_pages:
@@ -47,14 +47,11 @@ kmarkdown:
 
 defaults: 
   home: 
-    banner: image.jpg
+    banner: /assets/images/banners/image.jpg
     heading: Mc'Owl
     subheading: the nightly blog
 
-banner: 
-    image: image.jpg
-    background: "rgba(0, 0, 0, 0.8)"
-    height: "640px"
+
 
 
 # Build settings
