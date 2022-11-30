@@ -34,18 +34,17 @@ github_username:  mcowl-web
 favicon: mcowl-logo1.png
 
 sitemap: true
-header_pages: 
-  - index.markdown
-  - index.markdown
-  - archives.markdown
-  - categories.markdown
+header_pages:
+  - index.html
+  - archives.html
+  - categories.html
   - tags.html
-  - about.markdown
+  - about.md
 
 markdown: kramdown
 kmarkdown:
   input: GFM
-  
+
 defaults: 
   home: 
     banner: image.jpg
