@@ -26,9 +26,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   all about owls. Fun Fact: There are more than 216 different species
   of owls. Chew on that!!.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "xanderlaw.live" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Mc'Owl
-github_username: mcowl-web
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: kpainay
+github_username: kpainay
 favicon: /assets/images/logofin.png
 
 sitemap: true
@@ -46,12 +46,13 @@ kmarkdown:
 defaults:
   home:
     banner: /assets/images/banners/image.jpg
-    heading: Mc'Owl
+    heading: kpainay
     subheading: the nightly blog
 
 # Build settings
 # theme: minima
-theme: jekyll-theme-yat
+# theme: jekyll-theme-yat
+remote_theme: "jeffreytse/jekyll-theme-yat"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
