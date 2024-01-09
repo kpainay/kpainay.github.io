@@ -30,7 +30,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kpainay
 github_username: kpainay
 favicon: /assets/images/ctrllearn1.png
-brand_color: "#389092"
 sitemap: true
 header_pages:
   - index.html
@@ -46,7 +45,7 @@ kmarkdown:
 defaults:
   home:
     banner: /assets/images/banners/image1.png
-    heading: ""
+    heading: " "
     subheading: from noob to ninja; one command at a time
 
 # Build settings
