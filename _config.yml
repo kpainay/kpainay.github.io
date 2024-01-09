@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: kpainay
+title: ctrl+learn
 email: akpainay@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog made entirely with Markdown and focuses on Owls, 
@@ -29,15 +29,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kpainay
 github_username: kpainay
-favicon: /assets/images/logofin.png
-
+favicon: /assets/images/ctrllearn1.png
+brand_color: "#389092"
 sitemap: true
 header_pages:
   - index.html
   - archives.html
   - categories.html
   - tags.html
-  - about.md
+  - about.html
 
 markdown: kramdown
 kmarkdown:
@@ -45,9 +45,9 @@ kmarkdown:
 
 defaults:
   home:
-    banner: /assets/images/banners/image.jpg
-    heading: kpainay
-    subheading: the nightly blog
+    banner: /assets/images/banners/image1.png
+    heading: ""
+    subheading: from noob to ninja; one command at a time
 
 # Build settings
 # theme: minima

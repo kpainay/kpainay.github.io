@@ -11,9 +11,10 @@ $theme-colors: (
 
 // Default brand colors
 $brand-colors: (
-  "orangered": #ff5100,
-  "greatgold": #f2cb05,
-  "greenblue": #389092,
+  "sandy":#e5ddc8ff,
+  "teal": #008080ff,
+  "blk": #1e2928ff,
+  "rb": #db1f48ff,
 );
 
 $theme-name: "{{ site.theme_color }}";
