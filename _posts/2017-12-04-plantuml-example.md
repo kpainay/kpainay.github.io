@@ -23,7 +23,6 @@ Bob -> Alice : hello world
 
 @startuml
 (\*) --> "Initialization"
-
 if "Some Test" then
 -->[true] "Some Activity"
 --> "Another activity"

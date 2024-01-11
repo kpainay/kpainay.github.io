@@ -25,10 +25,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   niche facts, interesting fun facts, "some not so fun" ones
   all about owls. Fun Fact: There are more than 216 different species
   of owls. Chew on that!!.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: kpainay
-github_username: kpainay
+baseurl: "github.io" # the subpath of your site, e.g. /blog
+url: "kpainay.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ctrl+learn
+github_username: ctrl+learn
 favicon: /assets/images/ctrllearn1.png
 sitemap: true
 header_pages:
@@ -50,15 +50,14 @@ defaults:
 
 # Build settings
 # theme: minima
-# theme: jekyll-theme-yat
-remote_theme: "jeffreytse/jekyll-theme-yat"
+theme: jekyll-theme-yat
+# remote_theme: "jeffreytse/jekyll-theme-yat"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
-  - jekyll-plantuml
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
