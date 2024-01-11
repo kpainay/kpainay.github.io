@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   all about owls. Fun Fact: There are more than 216 different species
   of owls. Chew on that!!.
 baseurl: "github.io" # the subpath of your site, e.g. /blog
-url: "kpainay.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "kpainay" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ctrl+learn
 github_username: ctrl+learn
 favicon: /assets/images/ctrllearn1.png
