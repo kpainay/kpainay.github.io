@@ -51,7 +51,7 @@ defaults:
 # Build settings
 # theme: minima
 theme: jekyll-theme-yat
-# remote_theme: "jeffreytse/jekyll-theme-yat"
+remote_theme: "jeffreytse/jekyll-theme-yat"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
